@@ -76,7 +76,7 @@ books= [
 
 # GET method Uses
 
-@app.route('/books', methods=['GET'])  #http://127.0.0.1:5000/get-book
+@app.route('/books', methods=['GET'])  #http://127.0.0.1:5000/books
 def get_all_book():
     return jsonify(list(books))
 
